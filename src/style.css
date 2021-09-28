@@ -14,7 +14,7 @@
     --light-gray: rgba(255, 255, 255, 0.877);
 }
 header, section{
-    
+    overflow-x: hidden;
 }
 header a{
     font-family: var(--Sniglet-font);
@@ -232,4 +232,49 @@ header .row .col-md-5 img{
 }
 .section-3 .desktop p{
     font-size: 2vmin;
+}
+
+/* section-4 */
+
+.section-4 .container h1{
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+.section-4 .team{
+    padding: 10vmin 4vmin;
+}
+.section-4 .card{
+    width: 22rem;
+    margin-top: 10vmin;
+}
+.section-4 .card .card-text{
+    padding: 0 .5rem    ;
+}
+.section-4 .card-body > a {
+    font-size: 1.5em;
+}
+  
+.section-4 .carousel-item {
+    padding-left: 3rem;
+}
+  
+.border-radius {
+    border-radius: 340px;
+    width: 60%;
+}
+footer{
+    padding: 14vmin 18vmin;
+}
+footer p > span{
+    color: #ff512f;
+}
+footer .input-group .input-group-text{
+    background: var(--bggradient);
+    border: none;
+}
+footer .column i{
+    color: darkorchid;
+}
+footer .column i + i{
+    padding: 0 .5rem;
 }
